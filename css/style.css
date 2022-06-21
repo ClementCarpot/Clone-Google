@@ -1,0 +1,185 @@
+body, input {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
+.enTete {
+    display: block;
+    text-align: right;
+    padding-left: 4px;
+}
+
+.centrer {
+    text-align: center;
+    margin-top: 70px;
+}
+
+a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #681da8;
+}
+
+a:hover {
+        color: -webkit-link;
+        cursor: pointer;
+        text-decoration: underline;
+        
+}
+
+input[type="button"] {
+    border: none;
+    height: 37px;
+    width: auto;
+    background-color: #f8f9fa;
+    border-radius: 7%;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="button"]:hover {
+    border: 1px solid #dadce0;
+    color: #202124;
+    height: 37px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border-radius: 7%;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#logoConfidentialité {
+    height: 35px;
+    vertical-align: middle;
+}
+
+#gmail, #applications {
+    border-radius: 100%;
+    padding: 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input[type="text"] {
+    width: 485px;
+    background-color: transparent;
+    border-radius: 25px;
+    margin: 0;
+    padding-left: 45px;
+    padding-right: 50px;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    margin-top: 20px;
+    height: 42px;
+    font-size: 16px;
+    border: 1px solid silver;
+}
+
+input[type="text"]:hover {
+    width: 485px;
+    background-color: transparent;
+    border-radius: 25px;
+    margin: 0;
+    padding-left: 45px;
+    padding-right: 50px;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    margin-top: 20px;
+    height: 42px;
+    font-size: 16px;
+    border: 1px solid silver;
+    box-shadow: 2px 3px 3px rgb(0 0 0 / 10%);;
+}
+
+#bouton_rechercher {
+    height: 21px;
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 11px;
+}
+
+#bouton_micro {
+    height: 22px;
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 31px;
+}
+
+.footer {
+    border-bottom: 1px solid #212327;
+    font-size: 15px;
+    color: #9aa0a6;
+    bottom: 0;
+    position: absolute;
+    width: 99%;
+    margin-bottom: -15px;
+}
+
+.empreinte_carbone, a.empreinte_carbone {
+    color: #999da2;
+}
+
+.empreinte_carbone {    
+    padding: 15px;
+    white-space: nowrap;
+}
+
+#empreinte_carbone {
+    height: 15px;
+    float: left;
+    margin-left: 42%;
+    margin-top: 14px;
+    margin-right: 6px;
+}
+
+.footer_left {
+    font-size: 15px;
+    color: #9aa0a6;
+    width:50%;
+    height:50px;
+    float:left;    
+    text-align: left;
+}
+
+.footer_right {
+    font-size: 15px;
+    color: #9aa0a6;
+    bottom:0;
+    width:50%;
+    height: 50px;
+    float:right;
+    text-align: right;
+}
+
+.france {
+    margin-left: 15px;
+}
+
+.lien_footer {
+    margin-right: 20px;
+}
+
+.lien_footer_gauche {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.lien_footer_droite {
+    margin-left: 20px;
+    margin-right: 20px;
+}
